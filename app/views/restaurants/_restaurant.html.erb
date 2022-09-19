@@ -14,4 +14,8 @@
     <%= restaurant.rating %>
   </p>
 
+  <p>
+    <strong>Chef:</strong>
+    <%= link_to restaurant.chef_name, chef_restaurant_path(restaurant) %>
+  </p>
 </div>
